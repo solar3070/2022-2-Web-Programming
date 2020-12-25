@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>계산기</title>
+<style>
+table {
+	margin: 0 auto;
+	width: 550px;
+	height: 500px;
+}
+td, th {
+	border: 1px solid #E8E8E8;
+}
+th {
+	height: 70px;
+	background-color: #32CCFE;
+}
+h1 {
+	font-size: 50px;
+	font-style: italic;
+	margin: 0;
+}
+td {
+	width: 300px;
+	text-align: center;
+}
+img {
+	width: 300px;
+}
+</style>
+<script type="text/javascript">
+	function calc() {
+		var exp = prompt("계산할 수식을 입력하세요", "123+456");
+		if (exp != null) {
+			var result = eval(exp);
+			alert(result);
+		}
+	}
+</script>
+</head>
+<body>
+	<form>
+		<table>
+			<tr>
+				<th colspan="2"><h1>CalCuLaTor</h1></th>
+			</tr>
+			<tr>
+				<td><img src="image/cal.jpg"></td>
+				<td><input type="button" value="계산하기" onclick="calc()"></td>
+			</tr>
+			<tr>
+				<th colspan="2">&nbsp;</th>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
