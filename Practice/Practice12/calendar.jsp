@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Calender</title>
+<title>Calendar</title>
 <style>
-#calender {
+#calendar {
 	border-collapse: collapse;
 	border: 1px double black;
 }
@@ -24,7 +24,7 @@
 				"<font color=\"blue\">토</font>" };
 
 		out.println("<div align=\"center\">");
-		out.println("<table id='calender'>");
+		out.println("<table id='calendar'>");
 		out.println("<tr>");
 		for (int i = 0; i < 7; i++)
 			out.println("<td class='cell'>" + week[i] + "</td>");

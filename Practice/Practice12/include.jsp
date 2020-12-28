@@ -12,7 +12,7 @@
 		<hr>
 		<table>
 			<tr>
-				<td><%@ include file="calender.jsp" %></td>
+				<td><%@ include file="calendar.jsp" %></td>
 				<td width="20">&nbsp;</td>
 				<td><%@ include file="news.jsp" %></td>
 			</tr>
